@@ -31,7 +31,7 @@ class Header extends Component {
                 let image = sessionStorage.getItem('uImg');
                 <>
                     <Link className="btn btn-info" to="/">
-                        Hi <img src={image} style={{height:50,width:50}}/> {name}
+                        Hi <img src={image} style={{height:50,width:50}} alt=""/> {name}
                     </Link> &nbsp;
                     <button className="btn btn-danger" onClick={this.hanldeLogout}>
                         <span className='glyphicon glyphicon-log-out'></span> Logout
