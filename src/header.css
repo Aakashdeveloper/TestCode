@@ -1,0 +1,24 @@
+body{
+    margin:auto
+}
+a{
+    text-decoration:none
+}
+header{
+    /* width: 100%; */
+    height: 60px;
+    /* border:2px solid red */
+    background-color:#3b2632;
+}
+#brand{
+    font-size:30px;
+    color:white;
+    float:left;
+    margin-left: 1%;
+    margin-top: 1%
+}
+#loginBtn{
+    float:right;
+    margin-top:1%;
+    margin-right: 2%;
+}

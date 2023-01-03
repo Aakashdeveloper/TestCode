@@ -1,0 +1,63 @@
+footer{
+    height: 140px;
+    margin-top:2%;
+    background-color:#3b2632;
+    color:white;
+    text-align:center
+}
+
+ul{
+    list-style: none;
+}
+
+.footDiv{
+    float:left;
+    width:32%;
+    border-right: 2px solid white;
+}
+
+.noBorder{
+    border:none
+}
+
+@media screen and (max-width:1600px){
+    body{
+        background-color:rgb(225, 201, 237)
+    }
+}
+
+@media screen and (max-width:1400px){
+    body{
+        background-color:lightgray
+    }
+}
+
+@media screen and (max-width:1200px){
+    body{
+        background-color:rgb(160, 243, 173)
+    }
+}
+
+@media screen and (max-width:1000px){
+    body{
+        background-color:rgb(234, 173, 216)
+    }
+    .tileContainer{
+        width:46%;
+        margin-top:7%;
+    }
+}
+@media screen and (max-width:800px){
+    body{
+        background-color:rgb(244, 218, 162)
+    }
+}
+@media screen and (max-width:600px){
+    body{
+        background-color:rgb(214, 192, 241)
+    }
+    .tileContainer{
+        width:100%;
+        margin-top:12%;
+    }
+}
